@@ -1,0 +1,20 @@
+{
+  "name": "my_widget_service",
+  "version": "0.1.0",
+  "bin": {
+    "my_widget_service": "bin/my_widget_service.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.43.1",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.43.1",
+    "constructs": "^10.0.0"
+  }
+}
